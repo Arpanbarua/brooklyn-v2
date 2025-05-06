@@ -1,0 +1,465 @@
+@media(max-width:1200px) and (min-width: 993px)
+{
+    #about .img .icons
+    {
+        position: relative;
+        left: -367px;
+        top: 226px;
+    }
+
+    #about .contains 
+    {
+        margin-top: 40px;
+    }
+
+
+
+}
+
+@media(min-width:1201px) and (max-width:1399px)
+{
+    #about .img .icons
+    {
+        position: relative;
+        left: 31px;
+        top: -38px;
+    }
+}
+
+
+
+@media(max-width:992px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    /*-------- nav and offcanvas css start ----------*/
+
+    #nav .navbar-toggler {
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+    #offcanvasRight .nav-link {
+        padding: 12px 24px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: #333;
+        display: block;
+
+    }
+
+    #offcanvasRight img {
+        margin-left: 65px;
+    }
+
+    #offcanvasRight {
+        text-align: center;
+    }
+
+    #offcanvasRight .contact {
+        text-decoration: none;
+        background: var(--primary-500);
+        border-radius: 4px;
+        padding: 12px 24px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--gray-white);
+        margin-left: 0px;
+        margin-top: 20px;
+        display: inline-block;
+
+    }
+
+    #offcanvasRight .contact:hover {
+        outline: 1px solid var(--primary-500);
+        background: #fff;
+        color: #132238;
+    }
+
+
+    /*-------- nav and offcanvas css end ----------*/
+
+    /*-------- banner css start ----------*/
+    #banner {
+        text-align: center;
+
+    }
+
+    #banner {
+        padding: 30px 0;
+        margin: 20px 0;
+    }
+
+    #banner .contains>h4 {
+        font-size: 36px;
+    }
+
+    #banner .card-box {
+
+        width: calc(100% - 10px)
+    }
+
+    #banner .contains .row {
+        margin-top: 40px;
+    }
+
+
+
+    /*-------- banner css end ----------*/
+
+    /*-------- about css start ----------*/
+
+    #about {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    #about .img 
+    {
+        text-align:center;
+        /* padding: 0 50px; */
+    }
+
+    #about .container {
+        padding: 0;
+        bottom: 0;
+    }
+
+    #about .contains {
+        margin: 40px 0;
+
+
+    }
+
+    #about .contains .links-box {
+        /* padding-left: 20px; */
+        justify-content:center;
+    }
+
+    /* #about .img img
+    {
+        border: 1px solid black;
+    } */
+
+    #about .container {
+        position: relative;
+        display: block;
+        top: 0;
+        left: 0;
+    }
+
+    #about .img .icons {
+        left: 0;
+
+    }
+
+    #about .contains h4 {
+        font-size: 36px;
+        padding: 10px;
+    }
+
+    #about .contains p {
+        padding: 10px;
+        text-align: justify;
+    }
+
+    #about .contains a {
+        margin-bottom: 30px;
+    }
+
+    /*-------- about css end ----------*/
+
+
+    /*-------- work css start ----------*/
+    #work {
+        padding-bottom: 30px;
+    }
+
+    #work .row {
+        padding-top: 50px;
+
+    }
+
+    #work .contains {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #work .contains p {
+        text-align: justify;
+    }
+
+    #work .contains h4 {
+        font-size: 36px;
+    }
+
+    #work .card-box {
+        width: calc(100% - 24px);
+        margin-bottom: 20px;
+    }
+
+    #work .card-box:nth-child(1) {
+        top: 0;
+    }
+
+    #work .card-box:nth-child(3) {
+        top: 0;
+    }
+
+    /*-------- work css end ----------*/
+
+    /*-------- portfolio css start ----------*/
+    #portfolio {
+        padding: 40px 0;
+    }
+
+    #portfolio .card-section .card-box {
+        width: calc(100% - 24px);
+    }
+
+    #portfolio .contains h4 {
+        font-size: 36px;
+    }
+
+    #portfolio .contains p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    #portfolio .contains {
+        margin-bottom: 30px;
+    }
+
+    #portfolio .more {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /*-------- portfolio css end ----------*/
+
+    /*-------- idea css start ----------*/
+    #idea {
+        padding: 30px 0;
+    }
+
+    #idea .contains p,
+    #idea .contains h4 {
+        width: 100%;
+    }
+
+    #idea .contains h4 {
+        font-size: 36px;
+    }
+
+    /*-------- idea css end ----------*/
+
+    /*-------- blog css start ----------*/
+
+    #blog {
+        padding: 50px 0;
+    }
+
+    #blog .card-box {
+        width: calc(100% - 24px);
+    }
+
+    #blog .contains {
+        margin-bottom: 30px;
+    }
+
+    #blog .contains h4 {
+        font-size: 36px;
+    }
+
+    #blog .contains p {
+        width: 100%;
+    }
+
+
+    /*-------- blog css end ----------*/
+
+    /*-------- do css start ----------*/
+
+
+    #do {
+        padding: 50px 0;
+    }
+
+    #do .contains p {
+        text-align: justify;
+    }
+
+    #do .contains {
+        text-align: center;
+    }
+
+    #do .contains h4 {
+        font-size: 36px;
+    }
+
+    #do .col-xl-6 .row {
+
+        padding: 10px;
+    }
+
+    #do .contains p:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    #do .col-xl-6 {
+        margin-top: 20px;
+    }
+
+    /*-------- do css end ----------*/
+
+    /*-------- clients css start ----------*/
+    #clients 
+    {
+        padding: 50px 0;
+    }
+
+    #clients .contains h4 {
+        font-size: 36px;
+    }
+
+    #clients .contains p {
+        width: 100%;
+    }
+
+    /* #clients .d-flex {
+        flex-wrap: wrap;
+        
+    }
+
+    #clients .d-flex img 
+    {
+        margin-left: 90px ;
+    } */
+
+
+
+    /*-------- clients css end ----------*/
+
+
+    /*-------- testimonial css start ----------*/
+
+    #testimonial
+    {
+        padding-bottom: 50px;
+    }
+
+    #testimonial .contains h4 
+    {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+
+    #testimonial .contains p:nth-of-type(1)
+{
+    
+    padding: 20px 0 ;
+    width: 100%;
+    text-align: justify;
+    
+}
+
+#testimonial .contains p:nth-of-type(2)
+{
+  
+    width: 100%;
+    text-align: justify;
+    padding-bottom: 24px;
+}
+
+#testimonial .contains p:last-of-type 
+{
+margin-bottom: 30px;
+}
+    /*-------- testimonial css end ----------*/
+
+
+/*-------- discuss css start ----------*/
+#discuss 
+{
+    top: 0;
+}
+
+#discuss .contains .card-section
+{
+    padding: 0;
+    margin-top: 30px;
+}
+
+#discuss .contains .card-section .row 
+{
+   margin: 0 5px;
+}
+
+#discuss .container 
+{
+    padding: 30px 0;
+  
+}
+
+#discuss .contains>p
+{
+   
+    margin: 0 5px;
+}
+
+#discuss .contains>h4 
+{
+    text-align: center;
+}
+
+#discuss .contains .icons
+{
+    justify-content: center;
+    margin: 30px 0;
+}
+
+#discuss .row .col-xl-6
+{
+    
+    width: calc(100% - 12px);
+}
+
+#discuss .form-section .form-box  
+{
+    text-align: center;
+}
+/*-------- discuss css end ----------*/
+
+/*-------- footer css start ----------*/
+#footer 
+{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#footer .col-xl-6
+{
+margin-top: 20px;
+margin-left: 40px;   
+
+}
+
+#footer .row p
+{
+    margin-top: 20px;
+    text-align: center;
+}
+/*-------- footer css end ----------*/
+
+
+
+}
+
