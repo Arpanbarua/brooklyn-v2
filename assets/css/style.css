@@ -95,7 +95,13 @@
 
 #banner {
     padding: 70px 0 ;
+    
 
+}
+
+#banner .profile-pic 
+{
+    text-align: center;
 }
 
 #banner .contains>h4 {
