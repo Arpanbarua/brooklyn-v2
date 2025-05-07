@@ -1,4 +1,4 @@
-@media(max-width:1200px) and (min-width: 993px)
+/* @media(max-width:1200px) and (min-width: 993px)
 {
     #about .img .icons
     {
@@ -24,7 +24,7 @@
         left: 31px;
         top: -38px;
     }
-}
+} */
 
 
 
@@ -151,10 +151,13 @@
 
     #about .container {
         position: relative;
-        display: block;
+        
         top: 0;
         left: 0;
     }
+
+
+    
 
     #about .img .icons {
         left: 0;

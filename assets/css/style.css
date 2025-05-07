@@ -274,19 +274,28 @@
     align-items: center;
 }
 
+#about .profile-pic
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
 
-#about .img .icons {
+#about .profile-pic .icons {
     box-shadow: 0 12px 64px 0 rgba(28, 25, 25, 0.12);
     background: var(--gray-white);
     border-radius: 4px;
     padding: 15px;
     display: inline-flex;
-    position: relative;
+    /* position: relative;
     top: -40px;
-    left: 59px;
+    left: 59px; */
+    position: static;
+    margin-top: -40px;
 }
 
-#about .img .icons a {
+#about .profile-pic .icons a {
     padding: 15px;
     color: var(--primary-500);
     background: var(--gray-white);
@@ -295,7 +304,7 @@
     align-items: center;
 }
 
-#about .img .icons a:hover {
+#about .profile-pic .icons a:hover {
     box-shadow: 0 12px 64px 0 rgba(28, 25, 25, 0.12);
     background: var(--primary-500);
     color: var(--gray-white);
